@@ -1,0 +1,97 @@
+.transactions-panel {
+  margin-top: 15px;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.transaction-item {
+  padding: 15px;
+  margin: 10px 0;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.transaction-type {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.transaction-type.depot {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.transaction-type.retrait {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+.transaction-amount {
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.transaction-amount.depot {
+  color: #059669;
+}
+
+.transaction-amount.retrait {
+  color: #dc2626;
+}
+
+.transaction-date {
+  color: #6b7280;
+  font-size: 0.9em;
+}
+
+.transaction-description {
+  margin-top: 5px;
+  color: #4b5563;
+}
+
+.transaction-form {
+  margin-top: 15px;
+  padding: 15px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.button {
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  border: none;
+}
+
+.button-blue {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.button-green {
+  background-color: #10b981;
+  color: white;
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  margin-top: 4px;
+}
